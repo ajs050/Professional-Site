@@ -24,6 +24,9 @@ li {
 .flex {
     display: flex;
 }
+.container {
+    padding: 50px 0px;
+}
 .flex-1 {
     flex: 1;
 }
@@ -37,6 +40,9 @@ li {
 }
 section:nth-child(even) {
     background-color: #f8f8f8;
+}
+.section_title{
+    margin-bottom: 24px;
 }
 /* Navigation Bar Below */
 nav {
@@ -133,4 +139,21 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
+}
+/* TECH STACK */
+.language_img {
+    width: 100%;
+    max-width: 100px;
+}
+.language {
+    width: 25%;
+}
+.language_img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language_list {
+    display: flex;
+    width: 100%;
 }
