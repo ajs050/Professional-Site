@@ -144,16 +144,41 @@ nav {
 .language_img {
     width: 100%;
     max-width: 100px;
+    transition: all 300ms ease;
 }
+.language:hover .language_img {
+    filter: brightness(80%);
+    /* turns down brightness by 20% */
+    opacity: 0.86;
+    transform: scale(0.9); 
+    /* transform: scale ^^^ reduce image by 10% */
+}  
 .language {
-    width: 25%;
+    width: 50%;
+    /* ^^ Change back to 25 once i get more logos */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 .language_img-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+    padding: 25px;
 }
 .language_list {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+}
+.language_name {
+    font-size: 20px;
+    position: absolute;
+    transform: scale(0);
+    transition: all 300ms ease;
+    opacity: 0;
+}
+.language:hover .language_name {
+    transform: scale(1);
+    opacity: 1;
 }
