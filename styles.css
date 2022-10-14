@@ -175,7 +175,7 @@ nav {
     font-size: 20px;
     position: absolute;
     transform: scale(0);
-    transition: all 300ms ease;
+    transition: all 400ms ease;
     opacity: 0;
 }
 .language:hover .language_name {
