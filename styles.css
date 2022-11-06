@@ -238,7 +238,7 @@ nav {
     /* transform: scale ^^^ reduce image by 10% */
 }  
 .language {
-    width: 50%;
+    width: calc(100% / 3);
     /* ^^ Change back to 25 once i get more logos */
     display: flex;
     flex-direction: column-reverse;
