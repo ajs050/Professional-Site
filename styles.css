@@ -66,7 +66,7 @@ li {
     padding: 0 12px;
 }
 .text-blue {
-    color:#40E0D0;
+    color:#536dde;
 }
 section:nth-child(even) {
     background-color: #f8f8f8;
@@ -75,7 +75,27 @@ section:nth-child(even) {
 .section_title{
     margin-bottom: 24px;
 }
-/* Navigation Bar Below */
+section {
+    transition: all 300ms ease;
+}
+.dark-theme section{
+    background-color: #242424;
+}
+.dark-theme .about-me_link,
+.dark-theme .nav_link-anchor,
+.dark-theme .about-me_info-title,
+.dark-theme .about-me_info-para,
+.dark-theme .section_title {
+    color: #fff;
+}
+.dark-theme .link__hover-effect--black::after {
+    background-color: #fff;
+}
+/*
+
+NAVIGATION
+
+*/
 nav {
     height: 100px;
     width: 100%;
@@ -96,7 +116,7 @@ nav {
     color: #242424;
 }
 .nav_link-anchor-primary {
-    background-color: #6030b1;
+    background-color: #536dde;
     padding: 8px 20px;
     border-radius: 50px;
     /* For the border to curve */
@@ -104,13 +124,16 @@ nav {
     transition: all 300ms ease;
 }
 .nav_link-anchor-primary:hover {
-    background-color: rgb(60, 145, 158);
+    background-color: rgb(91, 185, 199);
 }
 .personal_logo {
     font-size: 24px;
-    color: #6030b1;
     font-weight: bold;
     margin: 0px 12px;
+}
+.fa-adjust {
+    color: #536dde;
+    font-size: 20px
 }
 /* About me */
 #about-me {
