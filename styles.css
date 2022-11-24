@@ -291,9 +291,9 @@ nav {
 }
 /* Projects */
 .project {
-    margin-bottom: 135px;
     max-width: 800px;
     margin: 0 auto;
+    margin: 24px 0;
 }
 .project:last-child {
     margin-bottom: 40px;
@@ -388,7 +388,7 @@ footer {
     width: 100%;
     height: 100%;
     font-size: 60px;
-    color: aquamarine;
+    color: #536dde;
 }
 .footer_social-list {
     margin-bottom: 28px;
