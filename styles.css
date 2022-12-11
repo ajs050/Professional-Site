@@ -430,6 +430,11 @@ footer {
    .about-me_info-para {
     font-size: 18px;
    }
+   .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
    .project {
     max-width: 500px;
    }
@@ -450,7 +455,7 @@ footer {
 
 /* SMALLER PHONES */
 @media (max-width: 480px) {
-    .nav_link:not(:last-child) {
+    .nav_link:not(:last-child, :first-child) {
         display: none;
     }
     /* ^^^ If not last element/child, dont display */
