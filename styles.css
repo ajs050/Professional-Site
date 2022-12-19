@@ -261,8 +261,7 @@ nav {
     /* transform: scale ^^^ reduce image by 10% */
 }  
 .language {
-    width: calc(100% / 3);
-    /* ^^ Change back to 25 once i get more logos */
+    width: calc(100% / 4);
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -336,7 +335,8 @@ nav {
     width: 100%;
     max-width: 550px;
     top: 50%;
-    left: 120px;
+    left: 15%;
+    transform: translate(-15%);
     transform: translateY(100%);
     z-index: 3;
     opacity: 0;
